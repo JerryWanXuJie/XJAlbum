@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>97BADB55-0740-4DCE-8512-6D739426D46F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IosProgramexercise</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>79F0B6641E473741506851C0E3E1BF3BA0838B9A</key>
+		<string>https://github.com/Wanxujie/Lekky.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IosProgramexercise/IosProgramexercise.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>79F0B6641E473741506851C0E3E1BF3BA0838B9A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Wanxujie/Lekky.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>79F0B6641E473741506851C0E3E1BF3BA0838B9A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>79F0B6641E473741506851C0E3E1BF3BA0838B9A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lekky</string>
+		</dict>
+	</array>
+</dict>
+</plist>
