@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 #import "XJimage.h"
+typedef  NS_ENUM(NSInteger,MyClass)
+{
+    MyClassE = 0,
+    MyClassS,
+    MyClassG,
+};
+
 @interface ViewController : UIViewController
 
 

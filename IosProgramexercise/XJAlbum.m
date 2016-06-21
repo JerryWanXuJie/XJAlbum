@@ -231,10 +231,11 @@
         else
         {
             //放大
-            //如果点击的是在图片外面
+
             imgview.frame = CGRectMake(0, 0,imgview.frame.size.width * maxScale, imgview.frame.size.height * maxScale);
             singleScrollView.contentSize = CGSizeMake(imgview.frame.size.width,imgview.frame.size.height);
             if (isOutImgView) {
+                //如果点击的是在图片外面
                 NSLog(@"isout");
                 
                 switch (pointType) {
@@ -311,15 +312,6 @@
             newLength = [self caculateLengthBetweenP1:newFirstPoint P2:newSecondPoint];
             // 计算出是放大或者是缩小
             biggerScale = newLength/oldLength;
-            if (biggerScale>1) {
-                //放大
-                
-            }
-            else
-            {
-                //缩小
-            }
-            
             newSize = CGSizeMake(oldSize.width*biggerScale,oldSize.height*biggerScale);
             if (newSize.width>maxSize.width)
             {
@@ -397,6 +389,7 @@
         offsetPinchX = newSize.width - myScreenWidth;
     }
     NSLog(@"%f ------ %f ------%f",offsetPinchX,centrePoint.x,newScale);
+    
     if (newSize.width == maxSize.width) {
         
     }

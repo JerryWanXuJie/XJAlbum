@@ -31,6 +31,8 @@
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(album)];
     imgview.userInteractionEnabled = YES;
     [imgview addGestureRecognizer:tap];
+    NSTimeInterval  timeInterval = 0.01;
+    [self performSelector:@selector(album) withObject:nil afterDelay:timeInterval];
 }
 
 -(void)album
